@@ -105,6 +105,7 @@ body {
     line-height: 1.7em;
     font-family: 'Roboto';
     margin: 0;
+    padding-top: 20em;
 }
 
 a {
@@ -119,18 +120,39 @@ img {
   max-width: 100%;
 }
 
-/* begin main header styles */
+/* main header styles */
 
 .main-header {
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
-    height: 20em
+    height: 4em;
+    z-index: 100;
+    background-color: #fff;
 }
 
+.main-header .main-nav {
+    position: absolute;
+    top: 1em;
+    right: 2em;
+}
+
+/* main navigator style */
+
 .main-nav ul {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.main-nav li {
+    text-align: right;
+    padding: 0 1em 0 .5em;
     display: inline-block;
+}
+
+.main-nav li a {
+    color: #989898;
 }
 
 
