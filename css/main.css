@@ -94,13 +94,44 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-@font-face {font-family: 'Code-Pro';src: url('webfonts/30F21D_0_0.eot');src: url('webfonts/30F21D_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/30F21D_0_0.woff2') format('woff2'),url('webfonts/30F21D_0_0.woff') format('woff'),url('webfonts/30F21D_0_0.ttf') format('truetype');}
- 
+html { box-sizing: border-box; }
+  *, *:before, *:after { box-sizing: inherit; }
 
+html {
+    background-color: #fff;
+}
 
+body {
+    line-height: 1.7em;
+    font-family: 'Roboto';
+    margin: 0;
+}
 
+a {
+    text-decoration: none;
+}
 
+ul {
+    list-style: none;
+}
 
+img {
+  max-width: 100%;
+}
+
+/* begin main header styles */
+
+.main-header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 20em
+}
+
+.main-nav ul {
+    display: inline-block;
+}
 
 
 
