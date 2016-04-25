@@ -188,12 +188,14 @@ img {
 .project-grid {
     padding-left: 2em;
     padding-right: 2em;
+    overflow: auto;
 }
 
-.project-grid .featured-work {
+.featured-work {
     float: left;
     padding-right: 1.5em;
     padding-bottom: 1.5em;
+    position: relative;
 }
 
 .featured-work img {
@@ -202,7 +204,7 @@ img {
     position: relative;
 }
 
-.featured work .project-content  {
+.featured-work .project-content  {
     position: absolute;
     top: 50%;
     left: 50%;
