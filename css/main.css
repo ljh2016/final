@@ -165,6 +165,10 @@ img {
     color: #989898;
 }
 
+.main-nav li a: hover {
+    color: #fff;
+}
+
 /* page banner style */
 
 .page-banner {
@@ -180,9 +184,17 @@ img {
     margin
 }
 
-.page-wrap {
-    padding-left: 1em;
-    padding-right: 1em;
+/* grid layout */
+
+.project-grid {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.project-grid .featured-work {
+    float: left;
+    padding-right: 1.5em;
+    padding-bottom: 1.5em;
 }
 
 
@@ -192,7 +204,9 @@ img {
 
 
 
-
+.page-footer {
+    clear: both
+}
 
 /* ==========================================================================
    Helper classes
