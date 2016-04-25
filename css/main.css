@@ -181,7 +181,6 @@ img {
 .page-banner h1 {
     font-weight: 300;
     color: #000;
-    margin
 }
 
 /* grid layout */
@@ -195,6 +194,22 @@ img {
     float: left;
     padding-right: 1.5em;
     padding-bottom: 1.5em;
+}
+
+.featured-work img {
+    display: block;
+    z-index: -10;
+    position: relative;
+}
+
+.project-grid .project-content  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%, -50%);
+    text-align: center;
+    margin: 0;
+    
 }
 
 
