@@ -102,10 +102,9 @@ html {
 }
 
 body {
-    line-height: 1.7em;
     font-family: 'Roboto';
     margin: 0;
-    padding-top: 20em;
+    padding-top: 5em;
 }
 
 a {
@@ -122,15 +121,27 @@ img {
 
 /* main header styles */
 
+.header-wrap .logo .icon {
+    position: fixed;
+    left: 4em;
+    top: 3em;
+    z-index: 100;
+}
+
 .main-header {
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
     height: 4em;
-    z-index: 100;
+    z-index: 1;
     background-color: #fff;
+    font-weight: 400;
+    letter-spacing: .02em;
 }
+
+/* main navigator style */
+
 
 .main-header .main-nav {
     position: absolute;
@@ -138,7 +149,6 @@ img {
     right: 2em;
 }
 
-/* main navigator style */
 
 .main-nav ul {
     margin: 0;
@@ -155,6 +165,25 @@ img {
     color: #989898;
 }
 
+/* page banner style */
+
+.page-banner {
+    margin-left: 18em;
+    margin-right: 30em;
+    line-height: 3.2em;
+    
+}
+
+.page-banner h1 {
+    font-weight: 300;
+    color: #000;
+    margin
+}
+
+.page-wrap {
+    padding-left: 1em;
+    padding-right: 1em;
+}
 
 
 
