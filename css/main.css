@@ -165,8 +165,8 @@ img {
     color: #989898;
 }
 
-.main-nav li a: hover {
-    color: #fff;
+.main-nav li a:hover {
+    color: #202020;
 }
 
 /* page banner style */
@@ -179,7 +179,7 @@ img {
 
 .page-banner h1 {
     font-weight: 300;
-    color: #000;
+    color: #202020;
     padding-bottom: 1.5em
 }
 
@@ -230,8 +230,24 @@ img {
 
 
 .page-footer {
-    clear: both
+    clear: both;
+    background-color: #202020;
+    font-weight: 300;
 }
+
+.page-footer a {
+    color: #FEF4E2;
+}
+
+.page-footer .email {
+    text-align: left;
+}
+
+.page-footer .media-links {
+    text-align: center;
+    display: inline-block:
+}
+    
 
 /* ==========================================================================
    Helper classes
