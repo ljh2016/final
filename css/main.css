@@ -233,19 +233,38 @@ img {
     clear: both;
     background-color: #202020;
     font-weight: 300;
+    padding: 2.5em;
+    position: relative;
 }
 
 .page-footer a {
     color: #FEF4E2;
+    margin-top: 1em;
 }
 
-.page-footer .email {
-    text-align: left;
+.page-footer .email{
+    float: left;
+    width: 15%;
+    margin: 0;
+    padding-left: 40em
 }
 
 .page-footer .media-links {
     text-align: center;
-    display: inline-block:
+    margin-top: 1em;
+    display: inline
+}
+
+.media-links .social-media {
+    padding: .15em;
+}
+
+.page-footer .copyright {
+    color: #989898;
+    float: right;
+    margin: 0;
+    width: 15%;
+    font-weight: 300;
 }
     
 
