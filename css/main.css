@@ -124,8 +124,9 @@ img {
 .header-wrap .logo .icon {
     position: fixed;
     left: 4em;
-    top: 4em;
+    top: 3em;
     z-index: 100;
+    max-width: 90%;
 }
 
 .main-header {
@@ -136,7 +137,7 @@ img {
     height: 4em;
     z-index: 1;
     background-color: #fff;
-    font-weight: 400;
+    font-weight: 300;
     letter-spacing: .02em;
 }
 
