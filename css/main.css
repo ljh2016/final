@@ -124,7 +124,7 @@ img {
 .header-wrap .logo .icon {
     position: fixed;
     left: 4em;
-    top: 3em;
+    top: 4em;
     z-index: 100;
 }
 
@@ -172,21 +172,24 @@ img {
 /* page banner style */
 
 .page-banner {
-    margin-left: 18em;
-    margin-right: 35em;
+    margin: 0 auto;
+    padding-top: 3em;
+    padding-left: 17em;
+    padding-right: 30em;
     line-height: 3.2em;
 }
 
 .page-banner h1 {
     font-weight: 300;
-    color: #202020;
-    padding-bottom: 1.5em
+    color: #000;
+    padding-bottom: 1.5em;
+    font-size: 1.9em;
 }
 
 /* grid layout */
 
 .project-grid {
-    padding: 2em 2em 2em 4em;
+    padding: 2em 1.8em 2em 1.8em;
     overflow: auto;
 }
 
