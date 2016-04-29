@@ -198,8 +198,8 @@ img {
 
 .featured-work {
     float: left;
-    padding-right: 1.5em;
-    padding-bottom: 1.5em;
+    padding-right: 1.3em;
+    padding-bottom: 1.3em;
     position: relative;
 }
 
@@ -221,39 +221,49 @@ img {
 }
 
 .lrm, .fashion {
-    width: 55%;
+    width: 57.6%;
 }
 
 .citrus, .tophat {
-    width: 45%;
+    width: 42.4%;
 }
 
-.elo, .hero, .identity {
-    width: 36%;
+.elo {
+    width: 39.5%;
+}
+
+.hero, .identity {
+    width: 37.8%;
 }
 
 .spacerize {
-    width: 28%;
+    width: 22.7%;
 }
 
-.project-grid .grid-two {
-    width: 60%;
+.citrus, .hero, .tophat, .identity {
+    padding-right: 0;
 }
 
-.grid-two .yoga {
-    width: 65%;
+
+.grid-two {
+    width: 62.2%;
+    overflow: auto;
 }
 
-.grid-two .math {
-    width: 65%;
+.project-grid .grid-two .yoga {
+    width: 68.3%;
 }
 
-.grid-two .time {
-    width: 35%;
+.project-grid .grid-two .math {
+    width: 68.3%;
 }
 
-.grid-two .dust {
-    width: 35%;
+.project-grid .grid-two .time {
+    width: 31.7%;
+}
+
+.project-grid .grid-two .dust {
+    width: 31.7%;
 }
 
 
