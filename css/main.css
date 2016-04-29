@@ -297,19 +297,23 @@ img {
     height: 7.5em;
     position: relative;
     width: 100%;
+    overflow: auto;
 }
+
+.contact-links p{
+    text-align: center;
+    display: inline-block;
+    margin-top: 3em;
+}
+
 
 .page-footer a {
     color: #FEF4E2;
-    margin-top: 1em;
 }
 
-.page-footer ul {
-    margin: 0;
-}
 
-.page-footer li {
-    display: inline-block;
+.page-footer a:hover {
+    color: #989898; 
 }
 
 
@@ -317,6 +321,7 @@ img {
 .page-footer .copyright {
     color: #989898;
     font-weight: 300;
+    font-size: .85em;
 }
 
 
