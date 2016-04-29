@@ -106,7 +106,7 @@ body {
     margin: 0 auto;
     padding-top: 2.5em;
     max-width: 1280px;
-    min-width: 992px;
+    min-width: 768px;
 }
 
 a {
@@ -186,7 +186,7 @@ img {
     margin-bottom: 0;
     font-weight: 300;
     color: #000;
-    padding-bottom: 2.1em;
+    padding-bottom: 2em;
     font-size: 1.9em;
 }
 
@@ -227,6 +227,15 @@ img {
     color: #000;
     font-weight: 300;
     font-size: 1em;
+    visibility: hidden;
+}
+
+.featured-work:hover {
+    background-color: hsla(188, 5%, 95%, 0.5);
+}
+
+.project-content:hover h2 {
+    visibility: visible;
 }
 
 .lrm, .fashion {
