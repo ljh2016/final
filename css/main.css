@@ -103,8 +103,10 @@ html {
 
 body {
     font-family: 'Roboto';
-    margin: 0;
-    padding-top: 5em;
+    margin: 0 auto;
+    padding-top: 2.5em;
+    max-width: 1280px;
+    min-width: 992px;
 }
 
 a {
@@ -125,7 +127,7 @@ img {
 .header-wrap .logo .icon {
     position: fixed;
     left: 4em;
-    top: 3em;
+    top: 2em;
     z-index: 100;
     max-width: 90%;
 }
@@ -174,26 +176,27 @@ img {
 /* page banner style */
 
 .page-banner {
-    margin: 0 auto;
-    padding-top: 3em;
-    padding-left: 17em;
-    padding-right: 30em;
-    line-height: 3.2em;
+    margin: 0 15em;
+    padding-top: 3.2em;
+    line-height: 3em;
+    max-width: 45%;
 }
 
 .page-banner h1 {
+    margin-bottom: 0;
     font-weight: 300;
     color: #000;
-    padding-bottom: 1.5em;
+    padding-bottom: 2.1em;
     font-size: 1.9em;
 }
 
 /* grid layout */
 
+
 .project-grid {
-    padding: 2em 1.85em 2em 1.85em;
+    padding: 2em 1.85em 5.6em 1.85em;
     overflow: auto;
-    width: 100%;
+    max-width: 100%;
 }
 
 .featured-work {
@@ -218,6 +221,12 @@ img {
     text-align: center;
     margin: 0;
     
+}
+
+.project-content h2 {
+    color: #000;
+    font-weight: 300;
+    font-size: 1em;
 }
 
 .lrm, .fashion {
@@ -246,7 +255,7 @@ img {
 
 /* inside grid */
 .project-grid .grid-two {
-    width: 62.84%;
+    max-width: 62.84%;
     overflow: auto;
     float: left;
     position: relative;
@@ -270,22 +279,16 @@ img {
 
 /* end inside grid */
 
-.project-content h2 {
-    color: #000;
-    font-weight: 300;
-    font-size: 1em;
-}
+/* Begin Footer */
 
 .page-footer {
     clear: both;
     background-color: #202020;
     font-weight: 300;
-    padding: 2.5em;
+    height: 7.5em;
     position: relative;
+    width: 100%;
 }
-
-
-/* Begin Footer */
 
 .page-footer a {
     color: #FEF4E2;
