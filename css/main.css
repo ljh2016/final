@@ -191,9 +191,9 @@ img {
 /* grid layout */
 
 .project-grid {
-    padding: 2em 1.8em 2em 1.8em;
+    padding: 2em 1.85em 2em 1.85em;
     overflow: auto;
-    max-width: 100%;
+    width: 100%;
 }
 
 .featured-work {
@@ -221,50 +221,54 @@ img {
 }
 
 .lrm, .fashion {
-    width: 57.6%;
+    width: 57.65%;
 }
 
 .citrus, .tophat {
-    width: 42.4%;
+    width: 42.35%;
 }
 
 .elo {
-    width: 39.5%;
+    width: 39.9%;
 }
 
 .hero, .identity {
-    width: 37.8%;
+    width: 37.16%;
 }
 
 .spacerize {
-    width: 22.7%;
+    width: 22.94%;
 }
 
 .citrus, .hero, .tophat, .identity {
     padding-right: 0;
 }
 
-.grid-two {
-    width: 62.2%;
+/* inside grid */
+.project-grid .grid-two {
+    width: 62.84%;
     overflow: auto;
+    float: left;
+    position: relative;
 }
 
 .project-grid .grid-two .yoga {
-    width: 68.8%;
+    width: 68.4%;
 }
 
 .project-grid .grid-two .math {
-    width: 65%;
+    width: 64.15%;
 }
 
 .project-grid .grid-two .time {
-    width: 31.2%;
+    width: 31.6%;
 }
 
 .project-grid .grid-two .dust {
-    width: 35%;
+    width: 35.85%;
 }
 
+/* end inside grid */
 
 .project-content h2 {
     color: #000;
@@ -279,6 +283,7 @@ img {
     padding: 2.5em;
     position: relative;
 }
+
 
 /* Begin Footer */
 
