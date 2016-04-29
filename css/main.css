@@ -115,6 +115,7 @@ ul {
     list-style: none;
 }
 
+
 img {
   max-width: 100%;
 }
@@ -192,6 +193,7 @@ img {
 .project-grid {
     padding: 2em 1.8em 2em 1.8em;
     overflow: auto;
+    max-width: 100%;
 }
 
 .featured-work {
@@ -201,8 +203,6 @@ img {
     position: relative;
 }
 
-.slide-show {
-}
 
 .featured-work img {
     display: block;
@@ -220,18 +220,48 @@ img {
     
 }
 
+.lrm, .fashion {
+    width: 55%;
+}
+
+.citrus, .tophat {
+    width: 45%;
+}
+
+.elo, .hero, .identity {
+    width: 36%;
+}
+
+.spacerize {
+    width: 28%;
+}
+
+.project-grid .grid-two {
+    width: 60%;
+}
+
+.grid-two .yoga {
+    width: 65%;
+}
+
+.grid-two .math {
+    width: 65%;
+}
+
+.grid-two .time {
+    width: 35%;
+}
+
+.grid-two .dust {
+    width: 35%;
+}
+
+
 .project-content h2 {
     color: #000;
     font-weight: 300;
     font-size: 1em;
 }
-
-
-
-
-
-
-
 
 .page-footer {
     clear: both;
@@ -240,6 +270,8 @@ img {
     padding: 2.5em;
     position: relative;
 }
+
+/* Begin Footer */
 
 .page-footer a {
     color: #FEF4E2;
