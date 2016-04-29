@@ -244,26 +244,25 @@ img {
     padding-right: 0;
 }
 
-
 .grid-two {
     width: 62.2%;
     overflow: auto;
 }
 
 .project-grid .grid-two .yoga {
-    width: 68.3%;
+    width: 68.8%;
 }
 
 .project-grid .grid-two .math {
-    width: 68.3%;
+    width: 65%;
 }
 
 .project-grid .grid-two .time {
-    width: 31.7%;
+    width: 31.2%;
 }
 
 .project-grid .grid-two .dust {
-    width: 31.7%;
+    width: 35%;
 }
 
 
