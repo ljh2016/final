@@ -298,6 +298,7 @@ img {
     position: relative;
     width: 100%;
     overflow: auto;
+    text-align: center;
 }
 
 .contact-links p{
@@ -306,23 +307,39 @@ img {
     margin-top: 3em;
 }
 
+.contact-links .email {
+    margin-right: 5em;
+}
+
+.contact-links .copyright {
+    margin-left: 5em;
+}
+
+.social-media {
+    margin-left: .25em;
+}
 
 .page-footer a {
     color: #FEF4E2;
 }
 
-
 .page-footer a:hover {
     color: #989898; 
 }
 
-
-
 .page-footer .copyright {
     color: #989898;
     font-weight: 300;
-    font-size: .85em;
+    font-size: .9em;
 }
+
+
+.page-footer img {
+    position: absolute;
+    right: 2em;
+    top: 3.5em;
+}
+
 
 
     
