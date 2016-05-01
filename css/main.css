@@ -238,24 +238,31 @@ img {
     visibility: visible;
 }
 
+.identity:hover {
+    background-color: hsla(66, 25%, 100%, 0)
+}
+
 .lrm, .fashion {
-    width: 57.65%;
+    width: 57.655%;
+    
 }
 
 .citrus, .tophat {
-    width: 42.35%;
+    width: 42.345%;
 }
 
 .elo {
     width: 39.9%;
+   
 }
 
 .hero, .identity {
-    width: 37.16%;
+    width: 37.1%;*/
+    
 }
 
 .spacerize {
-    width: 22.94%;
+    width: 23%;
 }
 
 .citrus, .hero, .tophat, .identity {
@@ -264,7 +271,7 @@ img {
 
 /* inside grid */
 .project-grid .grid-two {
-    max-width: 62.84%;
+    max-width: 62.82%;
     overflow: auto;
     float: left;
     position: relative;
@@ -310,7 +317,7 @@ img {
 
 .contact-links .email {
     /*margin-right: 9.5em;
-    padding-left: 3emz */
+    padding-left: 3em */
     position: absolute;
     top: 3em;
     left: 14.5em;
@@ -349,6 +356,11 @@ img {
     right: 2em;
     top: 3.75em;
 }
+
+.page-footer .arrow:hover {
+    transform: rotateY(25deg);
+}
+
 
 
 
