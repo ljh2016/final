@@ -104,7 +104,7 @@ html {
 body {
     font-family: 'Roboto';
     margin: 0 auto;
-    padding-top: 2.5em;
+    padding-top: 2em;
     max-width: 1280px;
     min-width: 768px;
 }
@@ -149,7 +149,7 @@ img {
 
 .main-header .main-nav {
     position: absolute;
-    top: 1.3em;
+    top: 2em;
     right: 2em;
 }
 
@@ -183,10 +183,9 @@ img {
 }
 
 .page-banner h1 {
-    margin-bottom: 0;
     font-weight: 300;
     color: #000;
-    padding-bottom: 2em;
+    margin-bottom: 3em;
     font-size: 1.9em;
 }
 
@@ -194,7 +193,7 @@ img {
 
 
 .project-grid {
-    padding: 2em 1.85em 5.6em 1.85em;
+    padding: .25em 1.85em 5.6em 1.85em;
     overflow: auto;
     max-width: 100%;
 }
@@ -231,7 +230,7 @@ img {
 }
 
 .featured-work:hover {
-    background-color: hsla(66, 25%, 100%, 0.7);
+    background: hsla(66, 25%, 100%, 0.7);
 }
 
 .project-content:hover h2 {
@@ -239,35 +238,33 @@ img {
 }
 
 .identity:hover {
-    background-color: hsla(66, 25%, 100%, 0)
+    background: hsla(66, 25%, 100%, 0)
 }
 
 .lrm, .fashion {
-    width: 57.655%;
-    
+    width: 57.70%;
 }
 
 .citrus, .tophat {
-    width: 42.345%;
+    width: 42.3%;
 }
 
 .elo {
     width: 39.9%;
-   
 }
 
 .hero, .identity {
-    width: 37.1%;*/
-    
+    width: 37%;
 }
 
 .spacerize {
-    width: 23%;
+    width: 23.1%;
 }
 
 .citrus, .hero, .tophat, .identity {
     padding-right: 0;
 }
+
 
 /* inside grid */
 .project-grid .grid-two {
@@ -301,39 +298,41 @@ img {
     clear: both;
     background-color: #202020;
     font-weight: 300;
-    height: 7.5em;
     position: relative;
-    width: 100%;
-    overflow: auto;
-    text-align: center;
-    
-}
-
-.contact-links p{
-    text-align: center;
-    display: inline-block;
-    margin-top: 3em;
-}
-
-.contact-links .email {
-    /*margin-right: 9.5em;
-    padding-left: 3em */
-    position: absolute;
-    top: 3em;
-    left: 14.5em;
-}
-
-.contact-links .copyright {
-    /*margin-left: 10em;*/
-    position: absolute;
+    max-width: 100%;
+    font-size: 1em;
     margin: 0;
-    top: 3.5em;
-    right: 22em; 
+    font-size: .98em;
+    height: 7.5em;
+    padding: 3.1em 0 3.1em 0;
 }
 
-.contact-links .social-media {
-    margin-left: -.75em;
-    margin-right: .8em
+.page-footer p {
+    margin: 0;
+}
+
+.page-footer .email {
+    width: 33.3333333%;
+    float: left;
+    padding: 0 10em 0 10em;
+}
+
+.page-footer .media-links {
+    width: 33.33333%;
+    float: left;
+    padding: 0 5em 0 5em;
+}
+
+.page-footer .media-links p {
+    display: inline-block;
+    padding-left: .15em;
+}
+
+.page-footer .copyright {
+    color: #989898;
+    width: 33.333333%;
+    float: right;
+    padding: 0 1em 0 1em;
 }
 
 .page-footer a {
@@ -344,13 +343,6 @@ img {
     color: #989898; 
 }
 
-.page-footer .copyright {
-    color: #989898;
-    font-weight: 300;
-    font-size: .9em;
-}
-
-
 .page-footer .arrow {
     position: absolute;
     right: 2em;
@@ -358,9 +350,9 @@ img {
 }
 
 .page-footer .arrow:hover {
-    transform: rotateY(25deg);
+    transform: rotateX(45deg);
 }
-
+ /* end footer */
 
 
 
